@@ -1,5 +1,5 @@
 {
-  "name": "@superset-ui/plugin-chart-hello-world",
+  "name": "plugin-chart-hello-world",
   "version": "0.0.0",
   "description": "Superset Chart - Hellow World",
   "sideEffects": false,
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apache-superset/superset-ui.git"
+    "url": "git+https://github.com/lucascalestini/superset-plugins.git"
   },
   "keywords": [
     "superset"
@@ -22,9 +22,6 @@
     "url": "https://github.com/apache-superset/superset-ui/issues"
   },
   "homepage": "https://github.com/apache-superset/superset-ui#readme",
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
     "@superset-ui/core": "^0.17.40",
     "@superset-ui/chart-controls": "^0.17.41"
